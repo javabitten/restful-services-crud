@@ -27,3 +27,13 @@ through HAL we could see how many people are logged in the system and how many d
 dynamic filtering
 
 
+**Versioning** When the system evolves or the requirements change we do not want to change the APIs so much that our old system do not work and we want to cater the change and evolution of the requirements as well.
+to acheive it we can do:
+
+Versioning through URI Path.
+Versioning through query parameters.
+Versioning through custom headers.
+Versioning through content negotiation.
+
+
+**Richardson Maturity Model**
