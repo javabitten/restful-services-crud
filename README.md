@@ -12,4 +12,18 @@ need only know a single fixed URL to access it. Any and all resources should be 
 dynamically from that URL through hyperlinks included in the representations of returned resources
 
 
-Generally, resources can have multiple presentations, mostly because there may be multiple different clients expecting different representations. Asking for a suitable presentation by a client, is referred as **content negotiation**.
+Generally, resources can have multiple presentations, mostly because there may be multiple different clients expecting different representations. Asking for a suitable presentation by a client, is referred as **Content Negotiation**.-->jackson-dataformat-xml
+
+
+**Swagger** is **documentation format** for RESTful.-->springfox-swagger2 & springfox-swagger-ui
+
+
+**Spring Boot Actuator**  --> spring-boot-starter-actuator
+is a sub-project of the Spring Boot Framework. It includes a number of additional features that help us to **_monitor and manage the Spring Boot application_**. It contains the actuator endpoints (the place where the resources live). 
+through HAL we could see how many people are logged in the system and how many dependencies or beans are there.
+
+
+**Filtering** in REST: don't want to send the passwod filed in the json format.-->@JsonIgnore & @JsonIgnoreProperties(Static filtering)
+dynamic filtering
+
+
