@@ -4,12 +4,12 @@
 
 
 
-Internationalization is the process of designing an application so that it can be adapted to various languages and regions without engineering changes.
+**Internationalization** is the process of designing an application so that it can be adapted to various languages and regions without engineering changes.
 
 
-HATEOAS is a constraint on REST that says that a client of a REST application 
+**HATEOAS** is a constraint on REST that says that a client of a REST application 
 need only know a single fixed URL to access it. Any and all resources should be discoverable 
 dynamically from that URL through hyperlinks included in the representations of returned resources
 
 
-Generally, resources can have multiple presentations, mostly because there may be multiple different clients expecting different representations. Asking for a suitable presentation by a client, is referred as content negotiation.
+Generally, resources can have multiple presentations, mostly because there may be multiple different clients expecting different representations. Asking for a suitable presentation by a client, is referred as **content negotiation**.
